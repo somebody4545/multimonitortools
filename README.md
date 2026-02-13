@@ -9,7 +9,7 @@
 - ~~Time based brightness~~
 - Weather based brightness
 - ~~Customize values~~
-- DCR
+- ~~DCR~~
 - ~~Separate brightness curves per monitor~~
 
 ## Why?
