@@ -8,10 +8,9 @@
 ## TODO
 - ~~Time based brightness~~
 - Weather based brightness
-- Customize values
+- ~~Customize values~~
 - DCR
-- Separate brightness curves per monitor
-- Per monitor controls
+- ~~Separate brightness curves per monitor~~
 
 ## Why?
 I love solutions like F.lux for dealing with working on late nights, but one thing that it doesn't solve is brightness.
