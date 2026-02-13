@@ -33,6 +33,14 @@
         "dim_day": 50,
         "barely_night": 35,
         "midnight": 25,
-        "sunrise_offset": 3600
+        "sunrise_offset": 3600,
+        "direction": "east",
+        "update_interval": 120,
+        "dcr_weight": 0,
+        "dcr_interval": 0.5316666666666667,
+        "dcr_min": 0,
+        "dcr_max": 100,
+        "dcr_trigger_min": 0,
+        "dcr_trigger_max": 134
     }
 }

@@ -14,6 +14,12 @@ def test_settings():
     sb.update_setting("bright_day", 95)
     sb.update_setting("direction", "always lit")
     sb.update_setting("update_interval", 60)
+    sb.update_setting("dcr_weight", 50)
+    sb.update_setting("dcr_interval", 0.5)
+    sb.update_setting("dcr_min", 20)
+    sb.update_setting("dcr_max", 80)
+    sb.update_setting("dcr_trigger_min", 50)
+    sb.update_setting("dcr_trigger_max", 200)
     
     # 3. Test Persistence
     config = sb.load_config()
@@ -21,6 +27,12 @@ def test_settings():
     assert config["settings"]["bright_day"] == 95
     assert config["settings"]["direction"] == "always lit"
     assert config["settings"]["update_interval"] == 60
+    assert config["settings"]["dcr_weight"] == 50
+    assert config["settings"]["dcr_interval"] == 0.5
+    assert config["settings"]["dcr_min"] == 20
+    assert config["settings"]["dcr_max"] == 80
+    assert config["settings"]["dcr_trigger_min"] == 50
+    assert config["settings"]["dcr_trigger_max"] == 200
     
     # 4. Test Retrieval
     assert sb.get_setting("location", "fail") == "New York"

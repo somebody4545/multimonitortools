@@ -93,7 +93,7 @@ def run():
     root = tk.Tk()
     root.title(f"mmt - {ver}")
 
-    root.geometry("350x500")
+    root.geometry("400x500")
     root.resizable(False, False)
 
     start_button = tk.Button(root, text="Start", command=start_action)
