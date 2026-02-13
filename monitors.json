@@ -1,0 +1,38 @@
+{
+    "test_monitor": {
+        "curve": [
+            {
+                "input": 0,
+                "output": 10
+            },
+            {
+                "input": 50,
+                "output": 20
+            },
+            {
+                "input": 100,
+                "output": 30
+            }
+        ]
+    },
+    "None 15E7": {
+        "curve": [
+            {
+                "input": 0,
+                "output": 0
+            },
+            {
+                "input": 100,
+                "output": 100
+            }
+        ]
+    },
+    "settings": {
+        "location": "seattle",
+        "bright_day": 90,
+        "dim_day": 50,
+        "barely_night": 35,
+        "midnight": 25,
+        "sunrise_offset": 3600
+    }
+}
